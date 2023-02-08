@@ -1,0 +1,14 @@
+# four global parameters
+9 20 10 1000
+# we are using 9 nodes 
+# meanInterRequestDelay=20, meanCSExecutionTime=10, and numberOfRequests=1000
+
+0 dc01 1230
+1 dc02 1232
+2 dc03 1234
+3 dc04 1235
+4 dc05 1236
+5 dc06 1237
+6 dc07 1238
+7 dc08 1239
+8 dc09 1240

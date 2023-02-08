@@ -1,0 +1,16 @@
+# six global parameters
+4 5 10 50 1000 10
+# we are using 4 nodes 
+# min per active=5 and max per active=10
+# minsenddelay=50 and snapshotdelay=1000; maxnumber=10
+
+0 dc01 1230
+1 dc02 1232
+2 dc03 1234
+3 dc04 1235
+
+# for each node other 3 nodes are neighbours
+1 2 3
+0 2 3
+0 1 3
+0 1 2
